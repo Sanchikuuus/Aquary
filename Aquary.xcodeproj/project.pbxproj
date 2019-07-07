@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCBBE64122D0C2C60001B312 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBE64022D0C2C60001B312 /* StatisticViewController.swift */; };
+		BCBBE64422D0C5410001B312 /* StatisticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBE64322D0C5410001B312 /* StatisticTableViewController.swift */; };
+		BCBBE64622D0C66A0001B312 /* TodayNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBE64522D0C66A0001B312 /* TodayNavigationController.swift */; };
+		BCBBE64822D0C6D30001B312 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBE64722D0C6D30001B312 /* TabBarController.swift */; };
+		BCBBE64A22D0F0630001B312 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBE64922D0F0630001B312 /* AddViewController.swift */; };
+		BCBBE64C22D1FE810001B312 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBBE64B22D1FE810001B312 /* SettingsViewController.swift */; };
 		BCCF8D9922D0C01900141592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF8D9822D0C01900141592 /* AppDelegate.swift */; };
-		BCCF8D9B22D0C01900141592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF8D9A22D0C01900141592 /* ViewController.swift */; };
 		BCCF8D9E22D0C01900141592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCF8D9C22D0C01900141592 /* Main.storyboard */; };
 		BCCF8DA122D0C01900141592 /* Aquary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCCF8D9F22D0C01900141592 /* Aquary.xcdatamodeld */; };
 		BCCF8DA322D0C01B00141592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCF8DA222D0C01B00141592 /* Assets.xcassets */; };
 		BCCF8DA622D0C01B00141592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCF8DA422D0C01B00141592 /* LaunchScreen.storyboard */; };
+		BCCF8DB022D0C27100141592 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF8DAF22D0C27100141592 /* TodayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC48038A22D25087001E8760 /* Aquary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aquary.entitlements; sourceTree = "<group>"; };
+		BCBBE64022D0C2C60001B312 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		BCBBE64322D0C5410001B312 /* StatisticTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticTableViewController.swift; sourceTree = "<group>"; };
+		BCBBE64522D0C66A0001B312 /* TodayNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayNavigationController.swift; sourceTree = "<group>"; };
+		BCBBE64722D0C6D30001B312 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BCBBE64922D0F0630001B312 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		BCBBE64B22D1FE810001B312 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 		BCCF8D9522D0C01900141592 /* Aquary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCF8D9822D0C01900141592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCCF8D9A22D0C01900141592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCCF8D9D22D0C01900141592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCCF8DA022D0C01900141592 /* Aquary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aquary.xcdatamodel; sourceTree = "<group>"; };
 		BCCF8DA222D0C01B00141592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCCF8DA522D0C01B00141592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCCF8DA722D0C01B00141592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCF8DAF22D0C27100141592 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +50,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCBBE64222D0C2D70001B312 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCBBE64722D0C6D30001B312 /* TabBarController.swift */,
+				BCCF8DAF22D0C27100141592 /* TodayViewController.swift */,
+				BCBBE64922D0F0630001B312 /* AddViewController.swift */,
+				BCBBE64322D0C5410001B312 /* StatisticTableViewController.swift */,
+				BCBBE64022D0C2C60001B312 /* StatisticViewController.swift */,
+				BCBBE64522D0C66A0001B312 /* TodayNavigationController.swift */,
+				BCBBE64B22D1FE810001B312 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		BCCF8D8C22D0C01900141592 = {
 			isa = PBXGroup;
 			children = (
@@ -44,6 +71,7 @@
 				BCCF8D9622D0C01900141592 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		BCCF8D9622D0C01900141592 /* Products */ = {
 			isa = PBXGroup;
@@ -56,11 +84,12 @@
 		BCCF8D9722D0C01900141592 /* Aquary */ = {
 			isa = PBXGroup;
 			children = (
+				BC48038A22D25087001E8760 /* Aquary.entitlements */,
 				BCCF8D9822D0C01900141592 /* AppDelegate.swift */,
-				BCCF8D9A22D0C01900141592 /* ViewController.swift */,
 				BCCF8D9C22D0C01900141592 /* Main.storyboard */,
 				BCCF8DA222D0C01B00141592 /* Assets.xcassets */,
 				BCCF8DA422D0C01B00141592 /* LaunchScreen.storyboard */,
+				BCBBE64222D0C2D70001B312 /* Controllers */,
 				BCCF8DA722D0C01B00141592 /* Info.plist */,
 				BCCF8D9F22D0C01900141592 /* Aquary.xcdatamodeld */,
 			);
@@ -99,6 +128,11 @@
 				TargetAttributes = {
 					BCCF8D9422D0C01900141592 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBBE64422D0C5410001B312 /* StatisticTableViewController.swift in Sources */,
+				BCBBE64822D0C6D30001B312 /* TabBarController.swift in Sources */,
+				BCBBE64A22D0F0630001B312 /* AddViewController.swift in Sources */,
+				BCBBE64C22D1FE810001B312 /* SettingsViewController.swift in Sources */,
 				BCCF8DA122D0C01900141592 /* Aquary.xcdatamodeld in Sources */,
-				BCCF8D9B22D0C01900141592 /* ViewController.swift in Sources */,
+				BCCF8DB022D0C27100141592 /* TodayViewController.swift in Sources */,
+				BCBBE64122D0C2C60001B312 /* StatisticViewController.swift in Sources */,
 				BCCF8D9922D0C01900141592 /* AppDelegate.swift in Sources */,
+				BCBBE64622D0C66A0001B312 /* TodayNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,9 +326,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Aquary/Aquary.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 982G9U8P5U;
 				INFOPLIST_FILE = Aquary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SashkoShel.Aquary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,9 +346,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Aquary/Aquary.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 982G9U8P5U;
 				INFOPLIST_FILE = Aquary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SashkoShel.Aquary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
