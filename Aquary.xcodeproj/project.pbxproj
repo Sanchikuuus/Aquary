@@ -19,7 +19,58 @@
 		BCCF8DA322D0C01B00141592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCF8DA222D0C01B00141592 /* Assets.xcassets */; };
 		BCCF8DA622D0C01B00141592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCF8DA422D0C01B00141592 /* LaunchScreen.storyboard */; };
 		BCCF8DB022D0C27100141592 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF8DAF22D0C27100141592 /* TodayViewController.swift */; };
+		BCDC7BF822D5085A0087D244 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDC7BF622D5085A0087D244 /* Interface.storyboard */; };
+		BCDC7BFA22D5085B0087D244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDC7BF922D5085B0087D244 /* Assets.xcassets */; };
+		BCDC7C0122D5085C0087D244 /* watchAquary Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BCDC7C0022D5085C0087D244 /* watchAquary Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCDC7C0622D5085C0087D244 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC7C0522D5085C0087D244 /* InterfaceController.swift */; };
+		BCDC7C0822D5085C0087D244 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC7C0722D5085C0087D244 /* ExtensionDelegate.swift */; };
+		BCDC7C0A22D5085C0087D244 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC7C0922D5085C0087D244 /* NotificationController.swift */; };
+		BCDC7C0C22D5085C0087D244 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDC7C0B22D5085C0087D244 /* ComplicationController.swift */; };
+		BCDC7C0E22D5085C0087D244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDC7C0D22D5085C0087D244 /* Assets.xcassets */; };
+		BCDC7C1322D5085C0087D244 /* watchAquary.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BCDC7BF422D5085A0087D244 /* watchAquary.app */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCDC7C0222D5085C0087D244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCF8D8D22D0C01900141592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCDC7BFF22D5085C0087D244;
+			remoteInfo = "watchAquary Extension";
+		};
+		BCDC7C1122D5085C0087D244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCF8D8D22D0C01900141592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCDC7BF322D5085A0087D244;
+			remoteInfo = watchAquary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCDC7C1722D5085C0087D244 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BCDC7C0122D5085C0087D244 /* watchAquary Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDC7C1B22D5085C0087D244 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BCDC7C1322D5085C0087D244 /* watchAquary.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BC48038A22D25087001E8760 /* Aquary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aquary.entitlements; sourceTree = "<group>"; };
@@ -37,10 +88,29 @@
 		BCCF8DA522D0C01B00141592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCCF8DA722D0C01B00141592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCCF8DAF22D0C27100141592 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		BCDC7BF422D5085A0087D244 /* watchAquary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchAquary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDC7BF722D5085A0087D244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BCDC7BF922D5085B0087D244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCDC7BFB22D5085B0087D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDC7C0022D5085C0087D244 /* watchAquary Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchAquary Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDC7C0522D5085C0087D244 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BCDC7C0722D5085C0087D244 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		BCDC7C0922D5085C0087D244 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		BCDC7C0B22D5085C0087D244 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		BCDC7C0D22D5085C0087D244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCDC7C0F22D5085C0087D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDC7C1022D5085C0087D244 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BCCF8D9222D0C01900141592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDC7BFD22D5085C0087D244 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				BCCF8D9722D0C01900141592 /* Aquary */,
+				BCDC7BF522D5085A0087D244 /* watchAquary */,
+				BCDC7C0422D5085C0087D244 /* watchAquary Extension */,
 				BCCF8D9622D0C01900141592 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				BCCF8D9522D0C01900141592 /* Aquary.app */,
+				BCDC7BF422D5085A0087D244 /* watchAquary.app */,
+				BCDC7C0022D5085C0087D244 /* watchAquary Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +170,30 @@
 			path = Aquary;
 			sourceTree = "<group>";
 		};
+		BCDC7BF522D5085A0087D244 /* watchAquary */ = {
+			isa = PBXGroup;
+			children = (
+				BCDC7BF622D5085A0087D244 /* Interface.storyboard */,
+				BCDC7BF922D5085B0087D244 /* Assets.xcassets */,
+				BCDC7BFB22D5085B0087D244 /* Info.plist */,
+			);
+			path = watchAquary;
+			sourceTree = "<group>";
+		};
+		BCDC7C0422D5085C0087D244 /* watchAquary Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BCDC7C0522D5085C0087D244 /* InterfaceController.swift */,
+				BCDC7C0722D5085C0087D244 /* ExtensionDelegate.swift */,
+				BCDC7C0922D5085C0087D244 /* NotificationController.swift */,
+				BCDC7C0B22D5085C0087D244 /* ComplicationController.swift */,
+				BCDC7C0D22D5085C0087D244 /* Assets.xcassets */,
+				BCDC7C0F22D5085C0087D244 /* Info.plist */,
+				BCDC7C1022D5085C0087D244 /* PushNotificationPayload.apns */,
+			);
+			path = "watchAquary Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,15 +204,51 @@
 				BCCF8D9122D0C01900141592 /* Sources */,
 				BCCF8D9222D0C01900141592 /* Frameworks */,
 				BCCF8D9322D0C01900141592 /* Resources */,
+				BCDC7C1B22D5085C0087D244 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BCDC7C1222D5085C0087D244 /* PBXTargetDependency */,
 			);
 			name = Aquary;
 			productName = Aquary;
 			productReference = BCCF8D9522D0C01900141592 /* Aquary.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BCDC7BF322D5085A0087D244 /* watchAquary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDC7C1822D5085C0087D244 /* Build configuration list for PBXNativeTarget "watchAquary" */;
+			buildPhases = (
+				BCDC7BF222D5085A0087D244 /* Resources */,
+				BCDC7C1722D5085C0087D244 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCDC7C0322D5085C0087D244 /* PBXTargetDependency */,
+			);
+			name = watchAquary;
+			productName = watchAquary;
+			productReference = BCDC7BF422D5085A0087D244 /* watchAquary.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BCDC7BFF22D5085C0087D244 /* watchAquary Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDC7C1422D5085C0087D244 /* Build configuration list for PBXNativeTarget "watchAquary Extension" */;
+			buildPhases = (
+				BCDC7BFC22D5085C0087D244 /* Sources */,
+				BCDC7BFD22D5085C0087D244 /* Frameworks */,
+				BCDC7BFE22D5085C0087D244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchAquary Extension";
+			productName = "watchAquary Extension";
+			productReference = BCDC7C0022D5085C0087D244 /* watchAquary Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -134,6 +268,12 @@
 							};
 						};
 					};
+					BCDC7BF322D5085A0087D244 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BCDC7BFF22D5085C0087D244 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 				};
 			};
 			buildConfigurationList = BCCF8D9022D0C01900141592 /* Build configuration list for PBXProject "Aquary" */;
@@ -150,6 +290,8 @@
 			projectRoot = "";
 			targets = (
 				BCCF8D9422D0C01900141592 /* Aquary */,
+				BCDC7BF322D5085A0087D244 /* watchAquary */,
+				BCDC7BFF22D5085C0087D244 /* watchAquary Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -162,6 +304,23 @@
 				BCCF8DA622D0C01B00141592 /* LaunchScreen.storyboard in Resources */,
 				BCCF8DA322D0C01B00141592 /* Assets.xcassets in Resources */,
 				BCCF8D9E22D0C01900141592 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDC7BF222D5085A0087D244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDC7BFA22D5085B0087D244 /* Assets.xcassets in Resources */,
+				BCDC7BF822D5085A0087D244 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDC7BFE22D5085C0087D244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDC7C0E22D5085C0087D244 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +343,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCDC7BFC22D5085C0087D244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDC7C0A22D5085C0087D244 /* NotificationController.swift in Sources */,
+				BCDC7C0C22D5085C0087D244 /* ComplicationController.swift in Sources */,
+				BCDC7C0822D5085C0087D244 /* ExtensionDelegate.swift in Sources */,
+				BCDC7C0622D5085C0087D244 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCDC7C0322D5085C0087D244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCDC7BFF22D5085C0087D244 /* watchAquary Extension */;
+			targetProxy = BCDC7C0222D5085C0087D244 /* PBXContainerItemProxy */;
+		};
+		BCDC7C1222D5085C0087D244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCDC7BF322D5085A0087D244 /* watchAquary */;
+			targetProxy = BCDC7C1122D5085C0087D244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BCCF8D9C22D0C01900141592 /* Main.storyboard */ = {
@@ -201,6 +384,14 @@
 				BCCF8DA522D0C01B00141592 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BCDC7BF622D5085A0087D244 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDC7BF722D5085A0087D244 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -362,6 +553,88 @@
 			};
 			name = Release;
 		};
+		BCDC7C1522D5085C0087D244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 982G9U8P5U;
+				INFOPLIST_FILE = "watchAquary Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SashkoShel.Aquary.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		BCDC7C1622D5085C0087D244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 982G9U8P5U;
+				INFOPLIST_FILE = "watchAquary Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SashkoShel.Aquary.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		BCDC7C1922D5085C0087D244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 982G9U8P5U;
+				IBSC_MODULE = watchAquary_Extension;
+				INFOPLIST_FILE = watchAquary/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SashkoShel.Aquary.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		BCDC7C1A22D5085C0087D244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 982G9U8P5U;
+				IBSC_MODULE = watchAquary_Extension;
+				INFOPLIST_FILE = watchAquary/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SashkoShel.Aquary.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -379,6 +652,24 @@
 			buildConfigurations = (
 				BCCF8DAB22D0C01B00141592 /* Debug */,
 				BCCF8DAC22D0C01B00141592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDC7C1422D5085C0087D244 /* Build configuration list for PBXNativeTarget "watchAquary Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDC7C1522D5085C0087D244 /* Debug */,
+				BCDC7C1622D5085C0087D244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDC7C1822D5085C0087D244 /* Build configuration list for PBXNativeTarget "watchAquary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDC7C1922D5085C0087D244 /* Debug */,
+				BCDC7C1A22D5085C0087D244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
