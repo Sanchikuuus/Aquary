@@ -19,6 +19,8 @@ class TodayViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
+	
+		
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
@@ -54,6 +56,7 @@ class TodayViewController: UIViewController {
 		let percent = Int(100 * Double(todayDrinked) / Double(goal))
 		volumeLabel.text = "\(drinked) L"
 		goalLabel.text = "It's \(percent)% from your goal - \(Double(goal)/1000) L"
+		
 	}
 	
 	override func viewDidAppear(_ animated: Bool) {

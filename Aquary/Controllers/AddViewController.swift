@@ -22,7 +22,6 @@ class AddViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
 		drinkPicker.delegate = self
 		volumePicker.delegate = self
 		drinkPicker.dataSource = self
@@ -35,11 +34,11 @@ class AddViewController: UIViewController {
 		timePicker.maximumDate = Date()
 	}
 	
-    @IBAction func changedTimePicker(_ sender: UIDatePicker) {
+	@IBAction func changedTimePicker(_ sender: UIDatePicker) {
 		pickedTime = sender.date
-    }
+	}
 	
-    @IBAction func savePressed(_ sender: UIBarButtonItem) {
+	@IBAction func savePressed(_ sender: UIBarButtonItem) {
 		let appDelegate = UIApplication.shared.delegate as! AppDelegate
 		let context = appDelegate.persistentContainer.viewContext
 		
@@ -55,9 +54,12 @@ class AddViewController: UIViewController {
 			print("some error \(error)")
 		}
 		
-		self.navigationController?.popViewController(animated: true)
+		dismiss(animated: true, completion: nil)
 	}
-    
+	
+	@IBAction func canselPressed(_ sender: UIBarButtonItem) {
+		dismiss(animated: true, completion: nil)
+	}
 }
 
 extension AddViewController: UIPickerViewDelegate, UIPickerViewDataSource {

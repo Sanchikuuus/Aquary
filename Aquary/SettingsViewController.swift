@@ -10,11 +10,21 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 	
-	@IBOutlet weak var dailyGoal: UITextField!
+    @IBOutlet weak var settilngTable: UITableView!
+    @IBOutlet weak var dailyGoal: UITextField!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
 		let goal = UserDefaults.standard.integer(forKey: "dailyGoal")
 		dailyGoal.text = String(goal)
+	}
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+		settilngTable.delegate = self
+		settilngTable.dataSource = self
 	}
 	
 	@IBAction func dailyGoalChanged(_ sender: UITextField) {
@@ -26,6 +36,27 @@ class SettingsViewController: UIViewController {
 			}
 		}
 	}
+    @IBAction func donePressed(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+}
+
+extension SettingsViewController: UITableViewDelegate, UITableViewDataSource {
+	
+	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+		return 3
+	}
+	
+	func numberOfSections(in tableView: UITableView) -> Int {
+		return 2
+	}
+	
+	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+		let cell = tableView.dequeueReusableCell(withIdentifier: "settingsIdentifier", for: indexPath)
+		cell.textLabel?.text = "test"
+		return cell
+	}
+	
 }
 
 extension UITextField{
